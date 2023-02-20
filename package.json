@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "parcel-reporter-static-files-copy": "^1.5.0"
   }
 }
