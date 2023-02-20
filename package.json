@@ -5,12 +5,15 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build --dist-dir docs"
+    "build": "parcel build --dist-dir docs --no-source-maps"
   },
   "dependencies": {
     "parcel": "^2.8.3"
   },
   "devDependencies": {
+    "@parcel/compressor-brotli": "^2.8.3",
+    "@parcel/compressor-gzip": "^2.8.3",
+    "parcel-reporter-clean-dist": "^1.0.4",
     "parcel-reporter-static-files-copy": "^1.5.0"
   }
 }
